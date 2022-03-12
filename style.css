@@ -1,0 +1,426 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.main{
+    /* border: 1px solid black; */
+    display: flex;
+    width: fit-content;
+}
+.first{
+    /* border: 1px solid black; */
+    width: 15%;
+}
+
+.list ul li {
+    transition: 0.3s;
+    /* border: 1px solid red; */
+    padding-left: 15px;
+}
+
+.list ul li:hover{
+    background-color: rgb(189, 189, 189);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.logo:hover{
+    background-color:rgb(151, 222, 255) ;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.sign:hover{
+    background-color:rgb(219, 219, 219) ;
+    border-radius: 50%;
+    transition: 0.3s;
+
+}
+.logo{
+    /* border: 1px solid black; */
+    width: fit-content;
+    position: relative;
+    left: -30px;    
+    
+}
+
+.list li{
+    list-style: none;
+    padding: 15px 0px;
+    color: rgb(61, 60, 60);
+    font-weight: 500;
+    font-size: 25px;
+}
+.second{
+    /* border: 1px solid black; */
+    width: 50%;
+    
+}
+.head{
+    /* border: 1px solid black; */
+    display: flex;
+    position: relative;
+    right: 245px;
+    font-size: 15px;
+    width: 25%;
+    align-items: center;
+}
+.cover1{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.button{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.cover, .profile, .button1, .sign, .details, .buttons2, .tweet, .button4, .subbutton1, span{
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}
+/* .subbutton:hover{
+    background-color: grey;
+} */
+.subbutton1:hover{
+    background-color: rgb(241, 240, 240);
+}
+.button1{
+    /* border: 1px solid black; */
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 70px;
+    padding: 05px;
+}
+.profile1{
+    
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: -100px;
+    border: 2px solid white;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 4%;
+}
+.text{
+    /* border:  1px solid black; */
+    /* position: relative;
+    top: -40px; */
+    padding: 25px;
+    font-size: 12px;
+    height: 14%;
+}
+.details{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    /* width: 70%; */
+    font-weight: bold;
+}
+.details2{
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* width: 20%; */
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0px 15px;
+}
+.buttons2 ul{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    color: grey;
+    
+}
+.buttons2 li{
+    list-style: none;
+}
+.buttons2{
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* width: 70%; */
+}
+.profile2{
+    
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.tweet{
+    /* border: 1px solid black; */
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding: 0 10px;
+    font-size: small;   
+    position: relative;
+    right: 135px;
+}
+.img2{
+    padding: 0 10px;
+}
+.button4{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.bord{
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+}
+.third{
+    /* border: 1px solid black; */
+    width: 20%;
+    padding: 5px;
+    
+}
+.search{
+    border: 1px solid rgb(218, 243, 250);
+    background-color: rgb(218, 243, 250);
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.search1{
+    border: 1px solid rgb(218, 243, 250);
+    background-color: rgb(218, 243, 250);
+    padding: 5px;
+}
+.new{
+    /* border: 1px solid black; */
+    font-size: 12px;
+    padding: 10px;
+}
+.button3{
+    /* border: 1px solid black; */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.subbutton1{
+    background-color: white;
+    font-weight: bolder;
+    border: none;
+    color: rgb(65, 65, 65);
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(148, 147, 147);
+    width: 250px;
+}
+.text3{
+    color: grey;
+    font-size: 13px;
+    padding: 10px;
+}
+.trend{
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 10px;
+    height: 30%;
+    position: relative;
+    top: 20px;
+    
+}
+.trend1{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+
+    
+}
+.trend2{
+    /* border: 1px solid black; */
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    padding: 0px 20px;
+}
+
+@media only screen and (max-width: 1024px){
+    .second{
+        /* border: 1px solid black; */
+        width: 50%;
+        /* border: 1px solid black; */
+        
+    }
+    .head{
+        /* border: 1px solid black; */
+      
+        position: relative;
+        right: 190px;
+    }
+    .profile1{
+        top: -50px;
+        left: -70px;
+       
+    }
+    .button{
+        position: relative;
+        top: 10px;
+        left: 70px;
+    }
+    .tweet{
+ 
+        position: relative;
+        right:60px;
+    }
+    .subbutton1{
+        font-size: 12px;
+        padding: 5px;
+        width: 180px;
+    }
+    .list i{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .logo{
+
+        position: relative;
+        left: 10px;    
+    }
+    .head{
+        /* border: 1px solid black; */
+    
+        right: 150px;
+        font-size: 10px;
+    }
+    .profile1{
+    
+        border-radius: 50%;
+        position: relative;
+        top: -50px;
+        left: -30px;
+    }
+    .button{
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+    .details{
+        font-size: 10px;
+        
+    }
+    .tweet{
+        position: relative;
+        right: 0px;
+    }
+    .search1{
+        
+        width: 60%;
+    }
+    .subbutton1{
+        font-size: 8px;
+        width: 140px;
+    }
+    .button3{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    .trend1{
+        font-size: 15px;
+    }
+    .trend2{
+        font-size: 10px;
+        padding: 0px 5px;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    .logo{
+
+        position: relative;
+        left: 10px;    
+    }
+    .head{
+        /* border: 1px solid black; */
+    
+        right: 100px;
+        font-size: 10px;
+    }
+    .buttons2{
+        font-size: 12px;
+    }
+    .profile1{
+    
+        border-radius: 50%;
+        position: relative;
+        top: -30px;
+        left: -15px;
+        width: 40px;
+        height: 40px;
+    }
+    .button{
+        position: relative;
+        top: 10px;
+        left: 20px; 
+    }
+    .details{
+        font-size: 6px;
+        
+    }
+    .tweet{
+        position: relative;
+        right: 0px;
+    }
+    .search1{
+        
+        width: 60%;
+        font-size: 5px;
+    }
+    .subbutton1{
+        font-size: 8px;
+        width: 80px;
+    }
+    .button3{
+        height: 100px;
+        
+    }
+    .trend1{
+        font-size: 10px;
+    }
+    .trend2{
+        font-size: 8px;
+        padding: 0px 5px;
+    }
+    .list a{
+        display: none;
+    }
+    .new{
+        font-size: 8px;
+    }
+    .text3{
+        font-size: 8px;
+
+    }
+    .button1{
+        font-size: 7px;
+        width: 100%;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .details2, .buttons2, .text2{
+        font-size: 8px;
+    }
+   
+}
